@@ -13,7 +13,6 @@ use sys::{ffi_methods, interface_fn, GodotFfi};
 mod impls;
 mod variant_traits;
 
-pub use impls::*;
 pub use sys::{VariantOperator, VariantType};
 pub use variant_traits::*;
 
