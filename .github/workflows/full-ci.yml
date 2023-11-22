@@ -250,7 +250,11 @@ jobs:
 
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          repository: 'zecozephyr/gdextension'
+          ref: 'wasm-mvp-for-merge'
+
 
       - name: "Run Godot integration test"
         uses: ./.github/composite/godot-itest
