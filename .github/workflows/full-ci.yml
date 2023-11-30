@@ -8,7 +8,7 @@ name: Full CI
 
 on:
   merge_group:
-#  push:
+  push:
 
 env:
   GDEXT_FEATURES: ''
