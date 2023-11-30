@@ -8,7 +8,7 @@
 
 header:
   license:
-#    spdx-id: 'MPL-2.0'
+    spdx-id: 'MPL-2.0'
 #    copyright-owner: 'Bromeon and contributors'
 #    copyright-year: '2022-2023'
 #    software-name: 'godot-rust'
