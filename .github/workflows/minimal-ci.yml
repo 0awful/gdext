@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "Check and fix license headers"
-        uses: apache/skywalking-eyes/header@v0.4.0
+        uses: apache/skywalking-eyes/header@v0.5.0
         with:
           # log: debug # optional: set the log level. The default value is `info`.
           config: .github/other/licenserc.yml
